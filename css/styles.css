@@ -57,7 +57,7 @@ h2 {
 }
 
 h3 {
-    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .item-details h3 + p {
@@ -75,4 +75,61 @@ h3 {
 
 .divider > section:last-of-type {
     border-bottom: none;
+}
+
+/* Profile
+---------------------------*/
+header {
+    background: #2f3061;
+    color: #f7fff7;
+}
+
+/* Projects
+---------------------------*/
+.projects {
+    background: #f7fff7;
+}
+
+.projects a {
+    color: #2f3061;
+}
+
+.projects .btn {
+    color: #f7fff7;
+    background: #2f3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects .btn:hover {
+    background: rgba(47,48,97,.8);
+}
+
+.project-item {
+    overflow: hidden;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+/* Work Experience
+---------------------------*/
+.work-experience {
+    background: #a1c6d7;
+}
+
+/* Education
+---------------------------*/
+.education {
+    background-image: url(../images/education1.png);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+
+.education p {
+    width: 60%;
 }
