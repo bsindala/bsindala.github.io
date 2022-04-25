@@ -80,23 +80,24 @@ h3 {
 /* Profile
 ---------------------------*/
 header {
-    background: #8A817C;
+    background: #0F0F0F;
     color: #f7fff7;
 }
 
 /* Projects
 ---------------------------*/
 .projects {
-    background: #BCB8B1;
+    background: #FBFBFB;
+    color: #0F0F0F;
 }
 
 .projects a {
-    color: #463F3A;
+    color: #716969;
 }
 
 .projects .btn {
-    color: #f7fff7;
-    background: #463F3A;
+    color: #FBFBFB;
+    background: #716969;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
@@ -104,7 +105,7 @@ header {
 }
 
 .projects .btn:hover {
-    background: rgba(138, 129, 124,.8);
+    background: #BCABAE;
 }
 
 .project-item {
@@ -118,7 +119,8 @@ header {
 /* Work Experience
 ---------------------------*/
 .work-experience {
-    background: #F4F3EE;
+    background: #BCABAE;
+    color: #0F0F0F;
 }
 
 /* Education
@@ -128,6 +130,7 @@ header {
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
+    color: #0F0F0F;
 }
 
 .education p {
@@ -137,8 +140,8 @@ header {
 /* Contact Info
 ---------------------------*/
 footer {
-    background: #463F3A;
-    color: #f7fff7;
+    background: #2D2E2E;
+    color: #FBFBFB;
 }
 
 .contact-list {
